@@ -10,9 +10,9 @@ service:
   port: 80
 
 ingress:
-  enabled: false
-  className: ""
-  host: hello.local
+  enabled: true
+  className: "tailscale"
+  host: hello-world-prod
   path: /
   pathType: Prefix
 
